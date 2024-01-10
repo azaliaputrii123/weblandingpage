@@ -4,39 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>website</title>
+  <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <style>
       body {background-image: url("assets/img/08.jpg");font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; width: 100%; height: 100%;min-height: 100%;  display: flex; object-fit: cover;background-size: cover;font-size: large;}
+      .commen {background-color: rgb(230, 131, 197);}
   </style>
 </head>
 <body>
     <center>
     <a href="#beranda"></a>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #d690f1;">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <div class="container justify-content-center">
+        <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="produk.html">Produk</a>
+              <a class="nav-link active" aria-current="page" href="produk.html">Produk</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+              <a class="nav-link active" aria-current="page" href="tentangkami.html">Tentang Kami</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="kontak.html">Kontak</a>
+              <a class="nav-link active" aria-current="page" href="kontak.html">Kontak</a>
             </li>
+            </ul>
           </ul>
-          <form class="d-flex ms-auto">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-  </nav>
     <br>
     <img class="img-fluid" src="assets/img/3.png" width="1500px" height="500px"></div>
     <center>
@@ -95,10 +93,29 @@
          SCARLETT mengeluarkan berbagai jenis produk kecantikan yang berfokus untuk mencerahkan dan menjaga kesehatan kulit, baik untuk tubuh,<br> wajah, maupun rambut. Dengan “Reveal Your Beauty”, SCARLETT menjadi solusi yang dapat meningkatkan kepercayaan diri Sahabat Scarlett <br> untuk berani mengungkapkan kecantikan dengan versi masing-masing.</p>
         </thead>
         </table>
-    <footer>
-       <p>© 2024 aza</p>
-    </footer>
     </center>
+    <div class="komen">
+    <div id="comment-container">
+      <h5>Comments</h5>
+      <ul id="comment-list"></ul>
+      <form id="comment-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required><br>
+          <label for="comment">Comment:</label>
+          <textarea id="comment" rows="4" required></textarea><br>
+          <button type="button" onclick="addComment()">Add Comment</button>
+      </form>
+      <div id="img">
+        <img src="assets/img/comen.jpeg" height="240px" width="240px">
+  </div>
+</div>
+</div>
+<div class="footer">
+  <footer>
+    <p>Copyright © 2024 Azal</p>
+  </footer>
+</div>
+<script src="script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

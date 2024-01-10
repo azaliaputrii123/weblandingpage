@@ -1,0 +1,45 @@
+#comment-container {
+    max-width: 30px;
+    margin: 20px;
+    padding: 20px;
+    position:relative;
+    font-size: 15px;
+}
+
+#comment-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+#comment-list li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 0;
+}
+#img{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    padding: 10px;
+}
+.komen{
+    background-color: rgb(195, 173, 206);
+}
+.footer{
+    background-color: rgb(112, 9, 126);
+    color: white;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 35px;
+    align-items: center;
+}
