@@ -1,3 +1,4 @@
+
 #comment-container {
     max-width: 30px;
     margin: 20px;
@@ -43,3 +44,17 @@ button {
     height: 35px;
     align-items: center;
 }
+.icon{
+    margin-bottom: 0px;
+}
+.shopping{
+    font-size: 155%;
+    color: #efefef;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+}
+.shopping i:hover{
+    color: #7842b6;}
