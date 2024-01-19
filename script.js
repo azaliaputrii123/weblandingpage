@@ -39,55 +39,55 @@ closeShopping.addEventListener("click", () => {
 let products = [
     {
         "id": 1,
-        "name": "Brightening Facial Wash",
+        "name": "#001 <br> Brightening Facial Wash",
         "image":"11.png",
         "price": 67900
     },
     {
         "id": 2,
-        "name": "7x Ceramide Barrier up Moistu",
+        "name": "#002 <br> 7x Ceramide Barrier up Moistu",
         "image":"300.png",
         "price": 67900
     },
     {
         "id": 3,
-        "name": "Brightly Ever After Essence Toner",
+        "name": "#003 <br> Brightly Ever After Essence Toner",
         "image":"1111.png",
         "price": 67900
     },
     {
         "id": 4,
-        "name": "Brightly Ever After Serum",
+        "name": "#004 <br> Brightly Ever After Serum",
         "image":"3000.png",
         "price": 67900
     },
     {
         "id": 5,
-        "name": "Glowtening Serum",
+        "name": "#005 <br> Glowtening Serum",
         "image":"55.png",
         "price": 67900
     },
     {
         "id": 6,
-        "name": "Scarlett Whitening Acne Care Facial Wash",
+        "name": "#006 <br> Scarlett Whitening Acne Care Facial Wash",
         "image":"111.png",
         "price": 67900
     },
     {
         "id":  7,
-        "name": "C-Power Face Mist",
+        "name": "#007 <br> C-Power Face Mist",
         "image":"111111.png",
         "price": 67900
     },
     {
         "id": 8,
-        "name": "Loving Body Cream",
+        "name": "#008 <br> Loving Body Cream",
         "image":"5.png",
         "price": 67900
     },
     {
         "id": 9,
-        "name": "Happy Body Lotion ",
+        "name": "#009 <br> Happy Body Lotion ",
         "image":"6.png",
         "price": 67900
     },

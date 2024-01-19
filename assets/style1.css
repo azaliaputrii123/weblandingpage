@@ -125,11 +125,11 @@ header .shopping span{
     grid-template-columns: repeat(2,1fr);
 }
 
-.card .checkOut div{
+.card .checkOut .total{
     background-color: #560bad;
     color: #efefef;
     width: 100%;
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,11 +137,27 @@ header .shopping span{
     cursor: pointer;
 }
 
-.card .checkOut div:nth-child(2) {
+.closeShopping{
     background-color: #1c1f25;
     color: #efefef;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
 }
-
+.checkout{
+    background-color: #ff3636;
+    color: #efefef;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: auto;
+}
 
 
 
